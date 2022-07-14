@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
 {
     public GameObject player;
     public GameObject petrolCan;
+    public GameObject eskomApp;
 
     public Animator playerAnim;
 
@@ -13,10 +14,17 @@ public class Movement : MonoBehaviour
 
     public float speed = 10;
 
+    public bool appActive;
+
+    void Start()
+    {
+        appActive = false;
+    }
     void FixedUpdate()
     {
         Move();
         MovementStop();
+        Info();
     }
 
     void Move()
@@ -60,5 +68,19 @@ public class Movement : MonoBehaviour
     void OnColliderEnter2D(Collider2D col)
     {
         
+    }
+
+    void Info()
+    {
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            eskomApp.SetActive(true);
+            appActive = true;
+        }
+        if(Input.GetKeyDown(KeyCode.LeftShift) && appActive == true)
+        {
+            eskomApp.SetActive(false);
+            appActive = false;
+        }
     }
 }
