@@ -19,7 +19,7 @@ public class Loadshedding : MonoBehaviour
 
     //timer references
     protected float applianceTimer;
-    protected float usageTimer;
+    protected static float usageTimer;
     protected float globalTimer;
     protected float nightTimer;
 
