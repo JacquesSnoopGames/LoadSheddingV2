@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
 
     public Slider scareBar;
 
-    public float speed = 10;
+    public static float speed = 3;
 
     public bool appActive;
 
@@ -23,8 +23,13 @@ public class Movement : MonoBehaviour
     void FixedUpdate()
     {
         Move();
-        MovementStop();
+        
+        
+    }
+    void Update()
+    {
         Info();
+        MovementStop();
     }
 
     void Move()
@@ -44,24 +49,24 @@ public class Movement : MonoBehaviour
             transform.Translate(Vector2.up * speed * Time.deltaTime);
             playerAnim.SetBool("WPressed", true);
         }
-        if(Input.GetKeyUp(KeyCode.W))
-        {
-            playerAnim.SetBool("WPressed", false);
-        }
         if(Input.GetKey(KeyCode.S))
         {
             transform.Translate(Vector2.down * speed * Time.deltaTime);
             playerAnim.SetBool("SPressed", true);
         }
-        if(Input.GetKeyUp(KeyCode.S))
-        {
-            playerAnim.SetBool("SPressed", false);
-        }
+        
         
     }
     void MovementStop()
     {
-        
+        if(Input.GetKeyUp(KeyCode.W))
+        {
+            playerAnim.SetBool("WPressed", false);
+        }
+        if(Input.GetKeyUp(KeyCode.S))
+        {
+            playerAnim.SetBool("SPressed", false);
+        }
         
     }
 
@@ -72,15 +77,23 @@ public class Movement : MonoBehaviour
 
     void Info()
     {
-        if(Input.GetKeyDown(KeyCode.LeftShift))
+        if(Input.GetKeyDown(KeyCode.Q))
         {
-            eskomApp.SetActive(true);
-            appActive = true;
+            if(appActive == false)
+            {
+                eskomApp.SetActive(true);
+                appActive = true;
+                //time.TimeScale = 0f;
+            }
         }
-        if(Input.GetKeyDown(KeyCode.LeftShift) && appActive == true)
+        if(Input.GetKeyUp(KeyCode.Q))
         {
-            eskomApp.SetActive(false);
-            appActive = false;
-        }
+            if(appActive == true)
+            {
+                eskomApp.SetActive(false);
+                appActive = false;
+            } 
+        } 
     }
+
 }
