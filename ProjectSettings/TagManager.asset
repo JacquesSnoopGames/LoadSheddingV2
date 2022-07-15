@@ -8,6 +8,15 @@ TagManager:
   - Walls
   - PetrolCan
   - PetrolArea
+  - Tredmill
+  - Microwave
+  - Kettle
+  - Fridge
+  - Oven
+  - Radio
+  - Laptop
+  - TV
+  - Generator
   layers:
   - Default
   - TransparentFX
