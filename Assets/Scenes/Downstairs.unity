@@ -270,7 +270,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 13448653}
   m_CullTransparentMesh: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &68490732
+=======
+--- !u!1 &94611070
+>>>>>>> Stashed changes
 =======
 --- !u!1 &94611070
 >>>>>>> Stashed changes
@@ -282,6 +286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - component: {fileID: 68490733}
   - component: {fileID: 68490735}
   - component: {fileID: 68490734}
@@ -289,18 +294,27 @@ GameObject:
   m_Name: Kettle
   m_TagString: Untagged
 =======
+=======
+>>>>>>> Stashed changes
   - component: {fileID: 94611071}
   - component: {fileID: 94611072}
   m_Layer: 0
   m_Name: TVTrigger
   m_TagString: TV
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!4 &68490733
+=======
+--- !u!4 &94611071
+>>>>>>> Stashed changes
 =======
 --- !u!4 &94611071
 >>>>>>> Stashed changes
@@ -309,6 +323,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 68490732}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -323,6 +338,8 @@ Transform:
 Animator:
   serializedVersion: 4
 =======
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 94611070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.7, y: 0.93, z: 0}
@@ -334,11 +351,15 @@ Animator:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &94611072
 BoxCollider2D:
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 68490732}
   m_Enabled: 1
@@ -406,6 +427,8 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 =======
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 94611070}
   m_Enabled: 1
   m_Density: 1
@@ -426,6 +449,9 @@ SpriteRenderer:
   serializedVersion: 2
   m_Size: {x: 0.7710705, y: 1.0998116}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &108003614
 GameObject:
@@ -24220,6 +24246,7 @@ Transform:
   - {fileID: 2012145376}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+<<<<<<< Updated upstream
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
 --- !u!1 &1850649764
@@ -24285,10 +24312,48 @@ SpriteRenderer:
 --- !u!61 &1831104766
 BoxCollider2D:
 >>>>>>> Stashed changes
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1831104764
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1831104765}
+  - component: {fileID: 1831104766}
+  m_Layer: 0
+  m_Name: LaptopTrigger
+  m_TagString: Laptop
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1831104765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831104764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.12, y: -4.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 326484389}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1831104766
+BoxCollider2D:
+>>>>>>> Stashed changes
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 1850649764}
   m_Enabled: 1
@@ -24337,6 +24402,8 @@ BoxCollider2D:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 =======
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 1831104764}
   m_Enabled: 1
   m_Density: 1
@@ -24357,6 +24424,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.3186836, y: 1.0998116}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1855402446
 GameObject:
