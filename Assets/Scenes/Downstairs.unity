@@ -474,6 +474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 113328017}
   - component: {fileID: 113328018}
+  - component: {fileID: 113328019}
   m_Layer: 0
   m_Name: Piano
   m_TagString: Untagged
@@ -548,6 +549,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &113328019
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113328016}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 1.9375}
+    newSize: {x: 0.5, y: 1.9375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 1.9375}
+  m_EdgeRadius: 0
 --- !u!1 &116439100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 411934114}
   - component: {fileID: 411934113}
+  - component: {fileID: 411934115}
   m_Layer: 0
   m_Name: Coffe Table
   m_TagString: Untagged
@@ -1292,6 +1320,32 @@ Transform:
   m_Father: {fileID: 1360634837}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &411934115
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411934112}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.125, y: 0.75}
+    newSize: {x: 1.125, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.125, y: 0.75}
+  m_EdgeRadius: 0
 --- !u!1 &417618769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,6 +1356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 417618770}
   - component: {fileID: 417618771}
+  - component: {fileID: 417618772}
   m_Layer: 0
   m_Name: Piano Chair
   m_TagString: Untagged
@@ -1376,6 +1431,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &417618772
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417618769}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.40625, y: 0.75}
+    newSize: {x: 0.40625, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.40625, y: 0.75}
+  m_EdgeRadius: 0
 --- !u!1 &417804974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1585,7 +1666,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.23381948}
+  m_Offset: {x: 0, y: -0.07623243}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1596,7 +1677,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.78125, y: 0.38026524}
+  m_Size: {x: 1.78125, y: 1.0003691}
   m_EdgeRadius: 0
 --- !u!1 &438887490
 GameObject:
@@ -4464,7 +4545,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.3119707}
+  m_Offset: {x: 0, y: 0.004471779}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4475,7 +4556,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 0.37605858}
+  m_Size: {x: 2, y: 0.99105644}
   m_EdgeRadius: 0
 --- !u!1 &1002652089
 GameObject:
@@ -4760,7 +4841,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.64365196, y: 0.31306887}
+  m_Offset: {x: 0.64365196, y: 0.00962019}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4771,7 +4852,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.49394608, y: 0.74886227}
+  m_Size: {x: 0.49394608, y: 1.3557596}
   m_EdgeRadius: 0
 --- !u!61 &1086132395
 BoxCollider2D:
@@ -4786,7 +4867,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.24647856, y: 0.50165224}
+  m_Offset: {x: -0.24647856, y: 0.18747807}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4797,7 +4878,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2882929, y: 0.37169552}
+  m_Size: {x: 1.2882929, y: 1.0000439}
   m_EdgeRadius: 0
 --- !u!1 &1088260581
 GameObject:
@@ -22424,6 +22505,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1661181331}
   - component: {fileID: 1661181330}
+  - component: {fileID: 1661181333}
+  - component: {fileID: 1661181332}
   m_Layer: 0
   m_Name: OfficeBookshelf
   m_TagString: Untagged
@@ -22498,6 +22581,58 @@ Transform:
   m_Father: {fileID: 1360634837}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1661181332
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661181329}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.38708305, y: -1.0844822}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1875, y: 3.78125}
+    newSize: {x: 1.1875, y: 3.78125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4133339, y: 1.6122856}
+  m_EdgeRadius: 0
+--- !u!61 &1661181333
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661181329}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.79497814}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1875, y: 3.78125}
+    newSize: {x: 1.1875, y: 3.78125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1875, y: 2.1912937}
+  m_EdgeRadius: 0
 --- !u!1 &1666181887
 GameObject:
   m_ObjectHideFlags: 0
@@ -24908,7 +25043,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 1.71
+  orthographic size: 2.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
