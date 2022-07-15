@@ -37,12 +37,12 @@ public class Movement : MonoBehaviour
          if(Input.GetKey(KeyCode.A))
         {
             transform.Translate(Vector2.left * speed * Time.deltaTime);
-            
+            playerAnim.SetBool("SPressed", true);
         }
         if(Input.GetKey(KeyCode.D))
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
-
+            playerAnim.SetBool("SPressed", true);
         }
         if(Input.GetKey(KeyCode.W))
         {
@@ -64,6 +64,14 @@ public class Movement : MonoBehaviour
             playerAnim.SetBool("WPressed", false);
         }
         if(Input.GetKeyUp(KeyCode.S))
+        {
+            playerAnim.SetBool("SPressed", false);
+        }
+        if(Input.GetKeyUp(KeyCode.D))
+        {
+            playerAnim.SetBool("WPressed", false);
+        }
+        if(Input.GetKeyUp(KeyCode.A))
         {
             playerAnim.SetBool("SPressed", false);
         }
