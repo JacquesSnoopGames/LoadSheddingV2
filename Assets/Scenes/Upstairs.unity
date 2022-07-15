@@ -940,7 +940,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &233118976
 GameObject:
@@ -4922,7 +4922,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &678103154
 MonoBehaviour:
@@ -6341,6 +6341,7 @@ GameObject:
   - component: {fileID: 1047052214}
   - component: {fileID: 1047052213}
   - component: {fileID: 1047052215}
+  - component: {fileID: 1047052219}
   - component: {fileID: 1047052216}
   - component: {fileID: 1047052217}
   - component: {fileID: 1047052218}
@@ -6503,6 +6504,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1047052219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047052212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a4390aca5d36b4aa836288ffe18071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tredmillAllowTurnOff: 0
+  tvAllowTurnOff: 0
+  radioAllowTurnOff: 0
+  blenderAllowTurnOff: 0
+  laptopAllowTurnOff: 0
+  ovenAllowTurnOff: 0
+  microwaveAllowTurnOff: 0
 --- !u!1 &1076296211
 GameObject:
   m_ObjectHideFlags: 0
@@ -6687,37 +6707,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.48740673, y: 0.5357437}
   m_EdgeRadius: 0
---- !u!1 &1104282235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1104282236}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1104282236
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1104282235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 277.98822, y: 236.38835, z: -4.002109}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1104588103
 GameObject:
   m_ObjectHideFlags: 0
@@ -7012,7 +7001,7 @@ Transform:
   - {fileID: 1508651414}
   - {fileID: 1715793442}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1177400706
 GameObject:
@@ -7629,7 +7618,7 @@ Transform:
   - {fileID: 673883093}
   - {fileID: 973157175}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1308913007
 GameObject:
@@ -7955,7 +7944,7 @@ Transform:
   - {fileID: 991407111}
   - {fileID: 1382961372}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1346559843
 GameObject:
@@ -11093,6 +11082,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1744580724}
+  - component: {fileID: 1744580725}
   m_Layer: 0
   m_Name: TredmillTrigger
   m_TagString: Tredmill
@@ -11108,13 +11098,39 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744580723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.68, y: -0.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1218459687}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1744580725
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744580723}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.32455254, y: 0.03957963}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6491051, y: 1.3008046}
+  m_EdgeRadius: 0
 --- !u!1 &1796927905
 GameObject:
   m_ObjectHideFlags: 0
