@@ -995,6 +995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 246240241}
   - component: {fileID: 246240240}
+  - component: {fileID: 246240242}
   m_Layer: 0
   m_Name: SceneCollider (1)
   m_TagString: Untagged
@@ -1043,6 +1044,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &246240242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246240239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b6fd012dbd3cf418c53fe2dbdee379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &283166283
 GameObject:
   m_ObjectHideFlags: 0
